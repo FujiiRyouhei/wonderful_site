@@ -1,21 +1,67 @@
-.introduction {
-  width: 700px;
-  border: 5px solid #000;
-  border-radius: 10px;
+.header {
+  background-image: url(https://wonderful-wife.net/wp-content/themes/agent_tcd033/img/w_code/head_bg.jpg);
+  background-size: cover;
+  margin: -20px 0 0;
+}
+
+.header-unit-lpwrap {
+  max-width: 1100px;
+  width: 94%;
   margin: 0 auto;
+}
+
+.header-unit {
+  border: 6px solid #000;
+  border-radius: 20px;
+  background: #fff;
+  padding: 2em 1em;
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto 2em;
   text-align: center;
+  box-sizing: border-box;
 }
 
-.title {
-  margin-bottom: 0;
+.header-title {
+  font-size: 38px;
+  font-weight: bold;
+  margin: 0;
 }
 
-.title-reading {
+.header-title-reading {
   font-size: 13px;
-  margin-bottom: 20px;
+  margin-bottom: 1em;
 }
 
-.color-contents {
+.header-contents {
+  font-size: 22px;
+}
+
+.header-color-contents {
+  margin: 5px 0;
+  font-size: 24px;
+}
+
+mark {
   background: linear-gradient(transparent 50%, #FEFE98 50%);
   font-weight: bold;
+}
+
+.order-bottom {
+  max-width: 560px;
+  background-color: #009bcf;
+  color: #fff;
+  padding: 1em 1em;
+  width: 94%;
+  margin: 1em auto;
+  border-radius: 4px;
+  transition: all 0.25s ease-in-out;
+}
+
+.order-bottom:hover {
+  opacity: 0.5;
+}
+
+.attention {
+  font-size: 0.8em;
 }/*# sourceMappingURL=main.css.map */
