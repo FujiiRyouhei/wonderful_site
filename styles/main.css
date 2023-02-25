@@ -1,7 +1,85 @@
+.menu {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 112.85px;
+  background-color: rgba(255, 255, 255, 0.9);
+  z-index: 9999;
+  box-sizing: border-box;
+}
+
+.menu-contents {
+  width: 1080px;
+  height: 112.85px;
+  position: relative;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.menu-contents-items {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.wonderful-wife-logo {
+  width: 216px;
+  height: 100%;
+  background-image: url(https://wonderful-wife.net/wp-content/uploads/tcd-w/logo.png?1677145027);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.home {
+  margin: 0 15px;
+}
+
+.service-guides {
+  margin: 0 15px;
+}
+
+.online-cource {
+  margin: 0 15px;
+}
+
+.company-overview {
+  margin: 0 18px;
+}
+
+.inquiry {
+  margin: 0 15px;
+}
+
+.blog {
+  margin: 0 15px;
+}
+
+.inquiry-bottom-box {
+  height: 45px;
+  width: 185px;
+  margin: 0 20px;
+  border: 1px solid orange;
+  color: #fff;
+  background: orange;
+  line-height: 47px;
+  transition: background-color 0.25s;
+}
+
+.inquiry-bottom-box:hover {
+  background-color: gray;
+}
+
 .header {
   background-image: url(https://wonderful-wife.net/wp-content/themes/agent_tcd033/img/w_code/head_bg.jpg);
   background-size: cover;
   margin: -20px 0 0;
+  padding-top: 160px;
 }
 
 .header-unit-lpwrap {
@@ -69,7 +147,7 @@ mark {
 .header-text {
   background: #000;
   color: #fff;
-  padding: 140px 0 3em;
+  padding: 10px 0 3em;
 }
 
 .header-text-lpwrap {
