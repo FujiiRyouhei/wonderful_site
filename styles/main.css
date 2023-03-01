@@ -127,14 +127,12 @@
   margin: -20px 0 0;
   padding-top: 160px;
 }
-
-.header-unit-lpwrap {
+.header .header-unit-lpwrap {
   max-width: 1100px;
   width: 94%;
   margin: 0 auto;
 }
-
-.header-unit {
+.header .header-unit-lpwrap .header-unit {
   border: 6px solid #000;
   border-radius: 20px;
   background: #fff;
@@ -145,33 +143,26 @@
   text-align: center;
   box-sizing: border-box;
 }
-
-.header-title {
+.header .header-unit-lpwrap .header-unit .header-title {
   font-size: 38px;
   font-weight: bold;
   margin: 0;
 }
-
-.header-title-reading {
-  font-size: 13px;
+.header .header-unit-lpwrap .header-unit .header-title-reading {
   margin-bottom: 1em;
 }
-
-.header-contents {
+.header .header-unit-lpwrap .header-unit .header-contents {
   font-size: 22px;
 }
-
-.header-color-contents {
+.header .header-unit-lpwrap .header-unit .header-color-contents {
   margin: 5px 0;
   font-size: 24px;
 }
-
-mark {
+.header .header-unit-lpwrap .header-unit mark {
   background: linear-gradient(transparent 50%, #FEFE98 50%);
   font-weight: bold;
 }
-
-.order-bottom {
+.header .header-unit-lpwrap .header-unit .order-bottom {
   max-width: 560px;
   background-color: #009bcf;
   color: #fff;
@@ -181,12 +172,10 @@ mark {
   border-radius: 4px;
   transition: all 0.25s ease-in-out;
 }
-
-.order-bottom:hover {
+.header .header-unit-lpwrap .header-unit .order-bottom:hover {
   opacity: 0.5;
 }
-
-.attention {
+.header .header-unit-lpwrap .header-unit .attention {
   font-size: 0.8em;
 }
 
@@ -195,16 +184,42 @@ mark {
   color: #fff;
   padding: 10px 0 3em;
 }
-
-.header-text-lpwrap {
+.header-text .header-text-lpwrap {
   max-width: 800px;
   margin: 0 auto;
 }
-
-.header-text-title {
+.header-text .header-text-lpwrap .header-text-title {
   text-align: center;
   font-size: 26px;
   font-weight: nomal;
   border-bottom: 1px solid #ffffff;
   margin-bottom: 0.5em;
+}
+
+@media screen and (max-width: 959px) {
+  .header .header-unit-lpwrap .header-unit {
+    padding: 2em 0.2em;
+    border: 5px solid #000;
+    font-size: 2.9333333333vw;
+  }
+  .header .header-unit-lpwrap .header-unit .header-title {
+    font-size: 6.1333333333vw;
+  }
+  .header .header-unit-lpwrap .header-unit .header-contents {
+    font-size: 4.5333333333vw;
+  }
+  .header .header-unit-lpwrap .header-unit .header-color-contents {
+    font-size: 4.8vw;
+  }
+  .header .header-unit-lpwrap .header-unit .order-bottom {
+    font-size: 4.6666666667vw;
+    width: 90%;
+    padding: 0.6em 1em;
+  }
+  .header-text .header-text-lpwrap .header-text-title {
+    font-size: 5.3333333333vw;
+  }
+  .header-text .header-text-lpwrap .header-text-contents {
+    font-size: 4.2666666667vw;
+  }
 }/*# sourceMappingURL=main.css.map */
